@@ -20,16 +20,6 @@ body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
-/*container*/
-.my_container{
-    width:100%;
-    display: inline-block;
-    background-color: #ffffff;
-    border-radius:1.5rem;
-    padding: 1.2rem;
-    box-shadow: 1px 1px 10px 1px rgba(0,0,0,.5);
-}
-
 h5{
     text-align: left;
    text-transform: uppercase;
@@ -37,9 +27,39 @@ h5{
    margin-bottom: 2rem;
 }
 
+
+#hr_id{
+  border-top:1.9px dashed; 
+}
+
 ul {
     list-style-type: none;
 }
+
+#header_todo{
+   text-align: center;
+   font-size: 3rem;
+   text-transform: uppercase;
+   transition: 2s all;
+
+}
+#header_todo:hover{
+    cursor: pointer;
+    transform: rotate(-360deg);
+ }
+
+/*container*/
+.my_container{
+    width:90%;
+    background-color: #ffffff;
+    border-radius:1.5rem;
+    padding: 1.2rem;
+    margin:2rem auto;
+    box-shadow: 1px 1px 10px 1px rgba(0,0,0,.5);
+}
+
+
+
 input[type="text"]:focus{
     background-color: #383e42;
     color:white;
@@ -52,5 +72,15 @@ opacity: 0.8;
 
 /* Responsive Design */ 
 @media screen and (min-width:760px){
-   
+    .my_container{
+        width:85%;
+        margin:2rem auto;
+    }
+}
+
+@media screen and (min-width:1020px){
+    .my_container{
+        width:70%;
+        margin:2rem auto;
+    }
 }
