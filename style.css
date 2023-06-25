@@ -4,83 +4,82 @@ Author: Bil. Müh Hamit Mızrak
 Date: 25 June 2023
 */
 
-*{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-html{
+html {
     font-size: 15px;
 }
 
-body{
+body {
     background-color: rgb(235, 223, 247);
-    color:black;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url("./img/readme.jpg");
 }
 
-h5{
+h5 {
     text-align: left;
-   text-transform: uppercase;
-   font-size: 1rem;
-   margin-bottom: 2rem;
+    text-transform: uppercase;
+    font-size: 1rem;
+    margin-bottom: 2rem;
 }
 
-
-#hr_id{
-  border-top:1.9px dashed; 
+#hr_id {
+    border-top: 1.9px dashed;
 }
 
 ul {
     list-style-type: none;
 }
 
-#header_todo{
-   text-align: center;
-   font-size: 3rem;
-   text-transform: uppercase;
-   transition: 2s all;
+#header_todo {
+    text-align: center;
+    font-size: 3rem;
+    text-transform: uppercase;
+    transition: 2s all;
 
 }
-#header_todo:hover{
+
+#header_todo:hover {
     cursor: pointer;
     transform: rotate(-360deg);
- }
+}
 
 /*container*/
-.my_container{
-    width:90%;
+.my_container {
+    width: 90%;
     background-color: #ffffff;
-    border-radius:1.5rem;
+    border-radius: 1.5rem;
     padding: 1.2rem;
-    margin:2rem auto;
-    box-shadow: 1px 1px 10px 1px rgba(0,0,0,.5);
+    margin: 10rem auto;
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, .5);
 }
 
-
-
-input[type="text"]:focus{
+input[type="text"]:focus {
     background-color: #383e42;
-    color:white;
+    color: white;
 }
 
-.label_completed{
-text-decoration: line-through;
-opacity: 0.8;
+.label_completed {
+    text-decoration: line-through;
+    opacity: 0.8;
 }
 
-/* Responsive Design */ 
-@media screen and (min-width:760px){
-    .my_container{
-        width:85%;
-        margin:2rem auto;
+/* Responsive Design */
+@media screen and (min-width:760px) {
+    .my_container {
+        width: 85%;
+        margin: 2rem auto;
     }
 }
 
-@media screen and (min-width:1020px){
-    .my_container{
-        width:70%;
-        margin:2rem auto;
+@media screen and (min-width:1020px) {
+    .my_container {
+        width: 50%;
+        margin: 6rem auto;
     }
 }
