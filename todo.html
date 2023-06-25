@@ -24,7 +24,56 @@
 
 <body>
     <!-- start code -->
+    <div class="container">
+        <h4 class="text-primary text-center display-3">Todo List</h4>
+        <div class="row">
+            <h5>Ekle</h5>
+            <hr id="hr_id" />
+            <!-- input -->
+            <div class="col-6">
+                <input type="text" id="todo_input" placeholder="yapılacak işler buraya ..." />
+            </div>
+            <div class="col">
+                <button class="btn btn-primary">Ekle</button>
+                <button class="btn btn-danger">Temizle</button>
+            </div>
 
+            <hr id="hr_id" />
+
+            <h5>Yapılacaklar</h5>
+            <ul>
+                <li>
+                    <div class="row">
+                        <div class="col-6">
+                            <input type="checkbox" />
+                            <label for="">Html5 Çalış</label>
+                        </div>
+                        <div class="col-4">
+                            <button class="btn btn-primary">Düzenle</button>
+                            <button class="btn btn-danger">Sil</button>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+            <hr id="hr_id" />
+            <h5>Tamamlananlar</h5>
+            <ul style="display:none;">
+                <li>
+                    <div class="row">
+                        <div class="col-6">
+                            <input type="checkbox" />
+                            <label for="">Html5 Çalış</label>
+                        </div>
+                        <div class="col-4">
+                            <button class="btn btn-primary">Düzenle</button>
+                            <button class="btn btn-danger">Sil</button>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div><!-- end row -->
+    </div><!-- end container -->
 
     <!-- end code -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
@@ -38,5 +87,4 @@
     <!-- external css -->
     <script src="./template.js"></script>
 </body>
-
 </html>
