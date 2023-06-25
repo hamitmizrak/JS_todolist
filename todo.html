@@ -25,13 +25,13 @@
 <body>
     <!-- start code -->
     <div class="my_container"> <!-- container-fluid -->
-        <h4 id="header_todo"><span>Todo</span>list App</h4>
+        <h4 id="header_todo"><span style="color:#6FAEFF; text-transform: uppercase;">Todo</span>list App</h4>
         <div class="row">
-            <h5>Ekle</h5>
+            <h5><i class="fa-solid fa-bars" id="input_icon"></i> Ekle</h5>
             <hr id="hr_id" />
             <!-- input -->
             <div class="col-6">
-                <input type="text" id="todo_input" class="form-control" placeholder="yapılacak işler buraya ..." />
+                <input type="text" id="todo_input" class="form-control" placeholder="yapılacak..." />
             </div>
             <div class="col mb-3">
                 <button class="btn btn-primary"><i class="fa-solid fa-plus"></i></button>
@@ -71,8 +71,13 @@
                     </div>
                 </li>
             </ul>
+            <hr id="hr_id" />
+            <h5>Tüm Listeyi Sil</h5>
+            <button class="btn btn-primary"> Listeyi Sil <i class="fa-regular fa-trash-can"></i></button>
         </div><!-- end row -->
     </div><!-- end container -->
+    <h5 id="footer_id">By Hamit MIZRAK</h5>
+    
 
     <!-- end code -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"

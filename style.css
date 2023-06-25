@@ -59,6 +59,7 @@ ul {
     padding: 1.2rem;
     margin: 10rem auto;
     box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, .5);
+    opacity: 0.8;
 }
 
 input[type="text"]:focus {
@@ -69,6 +70,21 @@ input[type="text"]:focus {
 .label_completed {
     text-decoration: line-through;
     opacity: 0.8;
+}
+
+#footer_id{
+    position:absolute;
+    top:75%;
+    left:33%;
+    background-color: #383e42;
+    color:white;
+    padding:1rem;
+    opacity: 0.9;
+    transition: 2s all;
+}
+
+#footer_id:hover{
+    display: none!important;
 }
 
 /* Responsive Design */
