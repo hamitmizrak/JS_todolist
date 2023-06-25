@@ -39,7 +39,7 @@ ul {
 #header_todo {
     text-align: center;
     font-size: 3rem;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     transition: 2s all;
 
 }
@@ -47,6 +47,8 @@ ul {
 #header_todo:hover {
     cursor: pointer;
     transform: rotate(-360deg);
+    background-color: #383e42;
+    color:white;
 }
 
 /*container*/
