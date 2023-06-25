@@ -1,0 +1,50 @@
+/*
+project Name: Todo List
+Author: Bil. Müh Hamit Mızrak
+Date: 25 June 2023
+*/
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+html{
+    font-size: 15px;
+}
+
+body{
+    background-color: rgb(235, 223, 247);
+    color:black;
+}
+
+/*container*/
+.my_container{
+    width:100%;
+    display: inline-block;
+    background-color: #ffffff;
+    border-radius:1.5rem;
+    padding: 1.2rem;
+    box-shadow: 1px 1px 10px 1px rgba(0,0,0,.5);
+}
+
+h5{
+    text-align: left;
+   text-transform: uppercase;
+   font-size: 1rem;
+   margin-bottom: 2rem;
+}
+
+ul {
+    list-style-type: none;
+}
+input[type="text"]:focus{
+    background-color: #383e42;
+    color:white;
+}
+
+/* Responsive Design */ 
+@media screen and (min-width:760px){
+   
+}
