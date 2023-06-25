@@ -10,6 +10,10 @@ Date: 25 June 2023
     box-sizing: border-box;
 }
 
+:root{
+    --antrasit_color:#383e42
+}
+
 html {
     font-size: 15px;
 }
@@ -41,13 +45,12 @@ ul {
     font-size: 3rem;
     /* text-transform: uppercase; */
     transition: 2s all;
-
 }
 
 #header_todo:hover {
     cursor: pointer;
     transform: rotate(-360deg);
-    background-color: #383e42;
+    background-color: var(--antrasit_color);
     color:white;
 }
 
@@ -63,7 +66,7 @@ ul {
 }
 
 input[type="text"]:focus {
-    background-color: #383e42;
+    background-color: var(--antrasit_color);
     color: white;
 }
 
@@ -76,7 +79,7 @@ input[type="text"]:focus {
     position:absolute;
     top:75%;
     left:33%;
-    background-color: #383e42;
+    background-color: var(--antrasit_color);
     color:white;
     padding:1rem;
     opacity: 0.9;
